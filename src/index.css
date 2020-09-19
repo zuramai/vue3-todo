@@ -1,0 +1,49 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+img {
+  width: 100px;
+}
+.container {
+  width: 768px;
+  margin: 0 auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+thead {
+  background-color: #eee;
+  color: #444;
+}
+thead th {
+  padding: .5rem;
+}
+tbody tr td {
+  text-align: left;
+    padding: .5rem
+}
+tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.mx-auto {
+  text-align: center;
+}
+.badge {
+  padding: .3rem .5rem;
+  border-radius: 1rem;
+}
+.badge-success {
+  background-color: green;
+  color: #fff;
+}
+.badge-danger {
+  background-color: #e74c3c;
+  color: #fff;
+}
